@@ -1,12 +1,11 @@
-# Bases de programacion.
-## Por SGT911
-## 01 Introduccion y herramientas
+# Bases de la programacion 
+### 01 - Introduccion y Herramientas
+### Por: **SGT911**
 
 ## Que es?
-* Es una rama de computacion.
-* Orientada solucionar Informaticos.
-* Automitazar tareas.
+*	Es una rama de los sistemas.
+*	Es solucionar problemas informaticos o matematicos.
+*	Se rige por una serie de comandos.
 
-## Herramientas.
-* PSeInt
-	* Pagina de [Descarga](http://pseint.sourceforge.net/index.php?page=descargas.php)
+## Herramienta.
+*	PSeInt
