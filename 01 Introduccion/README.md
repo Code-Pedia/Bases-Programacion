@@ -1,6 +1,6 @@
 # Bases de la programacion 
 ### 01 - Introduccion y Herramientas
-### Por: **SGT911**
+### Por: *SGT911*
 
 ## Que es?
 *	Es una rama de los sistemas.
