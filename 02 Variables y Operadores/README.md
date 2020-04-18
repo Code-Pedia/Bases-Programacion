@@ -1,4 +1,4 @@
-# Bases de la programacion 
+# Bases de la programacion
 ### 02 - Variables y operadores
 ### Por: *SGT911*
 
@@ -8,13 +8,13 @@
 ## Que es?
 
 * Una variable es un espacio en memoria asignado para poder almacenar datos.
-* Identificado por un  nombre y direccion en memoria dentro del algoritmo.
+* Identificado por un nombre y direccion en memoria dentro del algoritmo.
 * Este posee limitantes que el programador determina a la hora de crearla.
 
 ## Como nombrarla.
 
-* No puede inciar con un caracter distinto a una letra del alfabeto.
-* No puede acabar en los siguientes caracteres: "_", "-", ".", ",".
+* No puede inciar con un caracter distinto a una letra del alfabeto o una barra baja "_".
+* No puede acabar en los siguientes caracteres: "-", ".", ",".
 * No puede contener espacios.
 * Puede contener "_" entre palabras.
 * Las variables son sensibles a la capitalizacion, numerouno `!=` numeroUno.
@@ -79,7 +79,7 @@ numUno != numuno
 ```python
 # Suma (esta tambien es valida para variables de tipo texto)
 a = 2 + 1
-b = "Hola" + " " + "mundo" + "!!"
+b = "Hola" + " " + "mundo" + "!!" # b = "Hola mundo!!"
 
 # Resta
 a = 1 - 121
@@ -98,15 +98,32 @@ a = 15 % 3
 
 # Potencia (En algunos lenguajes es ^)
 a = 2 ** 3
+```
 
+## Operadores Asignativos
+
+```python
 # Incremento
 a++ # Es igual al valor inicial de la variable + 1 (a = a + 1)
 
 # Decremento
 a-- # Es igual al valor inicial de la variable - 1 (a = a - 1)
+
+# Suma asignativa
+a += 2 # Equvalenta a: a = a + 2
+
+# Resta asignativa
+a -= 2 # Equvalenta a: a = a - 2
+
+# Multiplicacion asignativa
+a *= 2 # Equvalenta a: a = a * 2
+
+# Division asignativa
+a /= 2 # Equvalenta a: a = a / 2
+
+# Modulo asignativo (Algunos lenguajes no lo soportan)
+a %= 2 # Equvalenta a: a = a % 2
 ```
-
-
 
 ## Operadores Relacionales
 
@@ -134,16 +151,16 @@ a != b
 
 ## Operadores logicos
 
-```python
-# Suponiendo que a y b son variables booleanos
+```c++
+// Suponiendo que a y b son variables booleanos
 
-# Y
+// Y
 a && b
     
-# O
+// O
 a || b
 
-# Negacion
+// Negacion
 !b
 ```
 
